@@ -19,9 +19,12 @@ protocol below was recovered purely by capturing and decoding the remote's IR.
 
 | File | What |
 |------|------|
+| [`protocol.pdf`](protocol.pdf) | **Illustrated protocol spec** (color-coded bit map, field tables, worked example). Source: `protocol.typ` (Typst). |
 | `codes.json` | Full generated code set: power toggle + 120 state frames (cool/heat × 16–30 °C × 4 fan speeds), plus the decoded protocol spec. |
 | `electra_ir.py` | Self-contained codec: **decode** a capture, **generate** any state, or **regenerate the whole matrix**. |
 | `raw_captures/*.b64` | The real learned captures the whole thing was derived from (for reproducibility). |
+
+> 📄 **Start with [`protocol.pdf`](protocol.pdf)** for the human-readable bit-field map. The section below is the same spec in text form.
 
 ## The protocol
 
