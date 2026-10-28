@@ -114,6 +114,14 @@ would need a template-climate wrapper since SmartIR assumes discrete on/off.)
 The upshot: **~7 real captures** were enough to generate a **120-code** matrix,
 all cross-checked against the originals.
 
+**Blind validation (2026-10-29).** Four more states the matrix had only
+*generated* were later captured from the handheld remote:
+`raw_captures/cool_16_high.b64`, `cool_30_low.b64`, `heat_30_auto.b64` and
+`cool_26_med.b64`. Each decodes to the same 34-bit core as the generated code
+for that state, bit for bit. That covers both ends of the temperature range, heat
+with a fan other than low, and an untested temperature in the middle, so every
+field has now been checked against the real remote and not just extrapolated.
+
 ## Contributing
 
 If you have one of these units: PRs welcome to add the **model number**, more
