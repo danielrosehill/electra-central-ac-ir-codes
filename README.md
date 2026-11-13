@@ -57,7 +57,7 @@ sending `cool/22/high` to an off unit does nothing. To control it: send the
 
 ## Hardware: ESPHome blaster that generates and decodes these frames
 
-[electra-ac-xiao-ir-mate-esphome](https://github.com/danielrosehill/electra-ac-xiao-ir-mate-esphome)
+[Electra-AC-XIAO-IR-Mate-ESPHome](https://github.com/danielrosehill/Electra-AC-XIAO-IR-Mate-ESPHome)
 is ESPHome firmware for the Seeed XIAO Smart IR Mate. It builds these frames on the
 device and decodes the handheld remote's frames back into Home Assistant, so you
 don't need a code table. In use since 2026-11-13.
